@@ -1,0 +1,35 @@
+  body {
+background-color:#f4f4f4;
+}
+.color-box {
+  width: 100px; 
+  height: 100px;
+  background-color: black;
+  display: inline-block;
+  margin: 20px 20px;
+  border-radius: 10px;
+}
+.color1 {
+  background-color: #00ffff;
+   box-shadow: 5px 5px 5px #121313;
+}
+.color2 {
+  background-color: rgb (255, 0, 0);
+  display: inline-block;
+  box-shadow: 5px 5px 5px #899393;
+}
+.color3 {
+  background-color: green;
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgb(0, 0, 0);
+}
+.color4 {
+  background-color: hsl(39, 100%, 50%);
+  display: inline-block;
+  box-shadow: 5px 5px 5px rgb(50 140 80);
+}
+.color5 {
+  background-color: rgb(255,255,0);
+  display: inline-block;
+  box-shadow: 5px 5px 5px hsl(35, 100%, 50%);
+}
